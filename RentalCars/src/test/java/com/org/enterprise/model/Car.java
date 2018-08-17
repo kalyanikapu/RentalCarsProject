@@ -5,7 +5,7 @@ public class Car {
     String model;
     String vin;
     MetaData metadata;
-    Perdayrent perdayrent;
+    PerDayRent perdayrent;
     Rent rent;
     Metrics metrics;
     public String getMake() {
@@ -45,11 +45,11 @@ public class Car {
         this.metrics = metrics;
     }
     
-    public Perdayrent getPerdayrent() {
+    public PerDayRent getPerdayrent() {
         return perdayrent;
     }
     
-    public void setPerdayrent(Perdayrent perdayrent) {
+    public void setPerdayrent(PerDayRent perdayrent) {
         this.perdayrent = perdayrent;
     }
     

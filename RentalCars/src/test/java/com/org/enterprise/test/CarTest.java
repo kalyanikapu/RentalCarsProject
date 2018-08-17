@@ -15,7 +15,7 @@ import com.google.gson.JsonParser;
 import com.org.enterprise.model.Car;
 import com.org.enterprise.model.MetaData;
 import com.org.enterprise.model.Metrics;
-import com.org.enterprise.model.Perdayrent;
+import com.org.enterprise.model.PerDayRent;
 import com.org.enterprise.utility.CarsParser;
 
 public class CarTest {
@@ -85,8 +85,8 @@ public class CarTest {
 	private static List<Car> getLowestRentalCars()
 			throws JsonParseException, JsonMappingException, FileNotFoundException, IOException, JSONException {
 		List<Car> cars = getCarDetails();
-		Perdayrent perDayRent = new Perdayrent();
-		Perdayrent perDayRent1 = new Perdayrent();
+		PerDayRent perDayRent = new PerDayRent();
+		PerDayRent perDayRent1 = new PerDayRent();
 		float price = 0.0f;
 		float discount = 0.0f;
 		float lowestPrice = 0.0f;

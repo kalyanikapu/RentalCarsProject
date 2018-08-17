@@ -1,7 +1,7 @@
 package com.org.enterprise.model;
 
 
-public class Perdayrent {
+public class PerDayRent {
     int price;
    int discount;
 
