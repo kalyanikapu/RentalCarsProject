@@ -1,0 +1,90 @@
+{
+ Cars:[
+ { 
+ "make": "Audi",
+ "model": "A7",
+ "vin": "09AGHY64352JITEG98K",
+     "metadata" : {
+         "color" : "Black",
+         "notes" : "Scratches on the front side of the car"
+         },
+     "perdayrent" : {
+        "price" : 140,
+         "discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+      },
+ { 
+ "make": "Tesla",
+ "model": "T1",
+ "vin": "09AGHY64352JITEG98K",
+     "metadata" : {
+         "color" : "Blue",
+         "notes" : "Brand new Car"
+         },
+     "perdayrent" : {
+        "price" : 120,
+         "discount" : 20
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 30000.76,
+         "depreciation": 3000.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+      },
+      { 
+ "make": "Passat",
+ "model": "P1",
+ "vin": "09AGHY64352JITEG98K",
+     "metadata" : {
+         "color" : "Red",
+         "notes" : "20 Mileage per hour"
+         },
+     "perdayrent" : {
+        "price" : 100,
+         "discount" : 10
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 50000.76,
+         "depreciation": 5000.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+      },
+      { 
+ "make": "BMW",
+ "model": "B1",
+ "vin": "09AGHY64352JITEG98K",
+     "metadata" : {
+         "color" : "Black",
+         "notes" : "Good Condition"
+         },
+     "perdayrent" : {
+        "price" : 100,
+         "discount" : 10
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+      }
+      ]
+               
+ }
+ 
